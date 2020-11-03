@@ -9,13 +9,11 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 @Getter
 @Setter
-@Document(collection = "users")
-public class UserModel {
-
+@Document(collection = "roles")
+public class RoleModel {
     @Id
     private String id;
 
     @Indexed(unique = true, direction = IndexDirection.DESCENDING, dropDups = true)
-    private String email;
-    private String password;
+    private String role;
 }
