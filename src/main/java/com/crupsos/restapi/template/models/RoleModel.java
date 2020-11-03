@@ -16,4 +16,5 @@ public class RoleModel {
 
     @Indexed(unique = true, direction = IndexDirection.DESCENDING, dropDups = true)
     private String role;
+
 }

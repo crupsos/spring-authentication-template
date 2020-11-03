@@ -23,5 +23,5 @@ public class UserModel {
     private String password;
 
     @DBRef
-    private Set<RoleModel> role;
+    private Set<RoleModel> roles;
 }
