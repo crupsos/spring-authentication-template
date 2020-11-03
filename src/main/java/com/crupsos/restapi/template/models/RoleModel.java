@@ -1,4 +1,4 @@
-package com.crupsos.restapi.template.model;
+package com.crupsos.restapi.template.models;
 
 import lombok.Getter;
 import lombok.Setter;
